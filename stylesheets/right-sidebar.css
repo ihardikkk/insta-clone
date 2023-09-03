@@ -1,0 +1,186 @@
+@media (max-width: 1159.9px) {
+
+    .right-sidebar
+     {
+
+        display: none;        
+    }
+
+}
+
+@media (min-width: 1160px) {
+
+        
+    .right-sidebar {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 52px;
+        padding-left: 66px;
+
+    }
+
+    .right-sidebar-div {
+
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .current-user-main-div {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .current-user-left-div  {
+
+        display: flex ;
+        height: 65px ;
+        align-items: center;
+    }
+
+    .current-user-dp-div {
+
+        margin-right: 10px;
+
+    }
+
+    .current-user-dp {
+
+        height: 45px;
+        border-radius: 99px;
+        cursor: pointer;
+    }
+
+    .current-user-id {
+
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+
+    .current-user-name {
+
+        font-size: 13px;
+        color: grey;
+        font-weight: 400;
+
+    }
+
+    .switch-div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .switch {
+
+        font-size: 12px ;
+        font-weight: 500;
+        color: rgb(0, 149, 246);
+        cursor: pointer;
+    }
+
+
+    .suggested-for-you-title-div  {
+
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0px 5px 0px;
+
+    }
+
+    .suggested-for-you-title {
+
+        font-size: 14px;
+        font-weight: 500;
+        color: rgb(119, 119, 119);
+
+    }
+
+    .see-all-suggests {
+
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .see-all-suggests:hover {
+
+        color: rgb(0, 0, 0, .6);
+    }
+
+    .suggested-profile-main-div {
+
+            padding-top: 12px;
+
+    }
+
+    .suggested-profile-div,
+    .suggested-profile {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .suggested-profile {
+
+        padding-left: 3px;
+    }
+
+
+    .suggested-dp-div {
+
+        width: 45px ;
+        margin-right: 10px;
+    }
+
+    .suggested-dp {
+
+        width: 100%;
+        border-radius:99px ;
+        cursor: pointer;
+
+    }
+
+    .suggested-profile-info {
+
+        overflow: hidden;
+    }
+
+    .suggested-profile-id {
+
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 2px;
+        
+    }
+
+    .suggested-profile-relation {
+
+        font-size: 13px;
+        font-weight: 400;
+        color: grey;
+        white-space: nowrap;
+    }
+
+    .follow-suggested-profile {
+
+        font-size: 12px;
+        color: rgb(0, 149, 246);
+        font-weight: 500;
+        cursor: pointer;
+
+    }
+
+    .follow-suggested-profile:hover {
+
+        color: rgb(0, 71, 119);
+    }
+
+}

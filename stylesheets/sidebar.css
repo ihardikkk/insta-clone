@@ -1,0 +1,628 @@
+@media (max-width: 763.9px) {
+
+    .sidebar{
+
+        min-width: 100%;
+        height: 55px;
+        border-right: 1px solid rgb(226, 226, 226);
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+
+        z-index:2;
+        bottom: 0;
+        position:  fixed;
+    }
+
+    .sidebar-top {
+
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+    }
+
+    
+    .instagram-icon-main-div {
+
+        display: none;
+        width: 100%;
+    }
+
+    .icons-main-div {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instagram-icon-2 {
+
+        display:none;
+    }
+
+    .icon-title {
+
+        display: none;
+    }
+
+    .icons-div {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        transition: background-color .35s ;
+    }
+
+    .messenger-div {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        position: relative;
+
+        transition: background-color .35s ;
+    }
+
+    .messenger-notification {
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        color: white;
+        width: 18px;
+        height: 18px;
+        font-size: 11px;
+        background-color: red;
+        border-radius: 99px;
+        border: 1px solid white;
+
+        top: 4px;
+        right: 5px;
+
+    }
+
+    .messenger-notification span {
+
+        margin-top: 2px;
+    }
+
+
+
+  
+
+    .icons,
+    .messenger
+     {
+        
+        height: 24px;
+        transition: height .35s ;
+    }
+
+    .icons-div-vertical {
+
+        display: none;
+    }
+
+    .icons-div:hover .icons,
+    .icons-div:hover .my-profile-pic {
+
+        height: 26px;
+    }
+
+    .messenger-div:hover .messenger {
+
+        height: 26px;
+
+    }
+
+
+    .my-profile-pic {
+
+        height: 24px;
+        border-radius: 99px;
+
+        transition: height .35s;
+    }
+
+    .more-main-div {
+
+        display: none;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+
+    .more-div {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        transition: background-color .35s;
+    }
+
+
+    .more-div:hover .more-2 {
+
+        height: 26px;
+    }
+
+    .more-2 {
+
+        height: 24px;
+        color:rgb(53, 53, 53);
+        transition: height .35s;
+    }
+
+
+
+    
+}
+
+@media (min-width: 764px) and (max-width: 1263.9px ) {
+
+    
+    .sidebar {
+
+        width: 73px;
+        height: 100%;
+        border-right: 1px solid rgb(226, 226, 226);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+
+        z-index:2;
+        left: 0;
+        position:  fixed;
+    }
+
+    .sidebar-top {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    .instagram-icon-main-div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 73px;
+        margin: 30px 1px 35px 0px;
+
+    }
+
+    .instagram-icon-div {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        transition: background-color .35s ;
+
+    }
+
+    .instagram-icon-div:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+
+    }
+
+    .instagram-icon {
+
+        height: 24px;
+        transition: height .35s;
+    }
+
+    .instagram-icon-2 {
+
+        display: none;
+    }
+
+    .instagram-icon-div:hover .instagram-icon {
+
+        height: 26px;
+    }
+
+    .icons-main-div {
+
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icon-title  {
+
+        display: none;
+    }
+
+    .icons-div,
+    .icons-div-vertical {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        transition: background-color .35s ;
+    }
+
+    .messenger-div {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        position: relative;
+
+        transition: background-color .35s ;
+    }
+
+    .messenger-notification {
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        color: white;
+        width: 18px;
+        height: 18px;
+        font-size: 11px;
+        background-color: red;
+        border-radius: 99px;
+        border: 1px solid white;
+
+        top: 4px;
+        right: 5px;
+
+    }
+
+    .messenger-notification span {
+
+        margin-top: 2px;
+    }
+
+    .icons-div:hover,
+    .icons-div-vertical:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+
+    }
+
+    .messenger-div:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+
+    }
+
+    .icons, 
+    .messenger{
+        
+        height: 24px;
+        transition: height .35s ;
+    }
+
+
+    .icons-div:hover .icons,
+    .icons-div-vertical:hover .icons,
+    .icons-div:hover .my-profile-pic {
+
+        height: 26px;
+    }
+
+    .messenger-div:hover .messenger {
+
+        height: 26px;
+
+    }
+
+
+    .my-profile-pic {
+
+        height: 24px;
+        border-radius: 99px;
+
+        transition: height .35s;
+    }
+
+    .more-main-div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        
+    }
+
+
+    .more-div {
+
+        width: 47px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        transition: background-color .35s;
+    }
+
+    .more-div:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+    }
+
+    .more-div:hover .more-2 {
+
+        height: 26px;
+    }
+
+    .more-2 {
+
+        height: 24px;
+        color:rgb(53, 53, 53);
+        transition: height .35s;
+    }
+
+}
+
+@media (min-width: 1264px) {
+
+    
+        
+    .sidebar {
+
+        width: 240px;
+        height: 100%;
+        border-right: 1px solid rgb(226, 226, 226);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+
+        z-index:2;
+        left: 0;
+        position:  fixed;
+    }
+
+    .sidebar-top {
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+    }
+
+    .instagram-icon-main-div {
+
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 220px;
+        margin: 30px 1px 30px 0px;
+
+    }
+
+    .instagram-icon-div {
+
+        
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        
+
+        transition: background-color .35s ;
+
+    }
+
+
+    .instagram-icon {
+
+        
+        display: none;
+        
+    }
+
+    .instagram-icon-2 {
+
+        width: 103px;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+
+    .instagram-icon-div:hover .instagram-icon {
+
+        height: 25px;
+    }
+
+    .icons-main-div {
+
+        width: 220px;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-between;
+    }
+
+
+    .icon-title {
+
+        padding-left: 15px;
+        font-size: 15px;
+    }
+
+    .icons-div,
+    .icons-div-vertical {
+
+        width: 220px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        border-radius: 8px;
+
+        transition: background-color .35s ;
+    }
+
+    .messenger-div {
+
+        width: 220px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        border-radius: 8px;
+        position: relative;
+
+        transition: background-color .35s ;
+    }
+
+    .messenger-notification {
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        color: white;
+        width: 18px;
+        height: 18px;
+        font-size: 11px;
+        background-color: red;
+        border-radius: 99px;
+        border: 1px solid white;
+
+        top: 3px;
+        left: 26px;
+
+    }
+
+    .messenger-notification span {
+
+        margin-top: 2px;
+    }
+
+    .icons-div:hover,
+    .icons-div-vertical:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+
+    }
+
+    .messenger-div:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+
+    }
+
+    .icons, 
+    .messenger{
+        
+        height: 24px;
+        transition: height .35s ;
+        margin-left: 15px;
+    }
+
+
+    .icons-div:hover .icons,
+    .icons-div-vertical:hover .icons,
+    .icons-div:hover .my-profile-pic {
+
+        height: 25px;
+    }
+
+    .messenger-div:hover .messenger {
+
+        height: 25px;
+
+    }
+
+
+    .my-profile-pic {
+
+        height: 24px;
+        border-radius: 99px;
+        margin-left: 15px;
+
+        transition: height .35s;
+    }
+
+    .more-main-div {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        
+    }
+
+
+    .more-div {
+
+        width: 220px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        border-radius: 8px;
+
+        transition: background-color .35s;
+    }
+
+    .more-div:hover {
+
+        background-color: rgba(0, 0, 0, .05);
+    }
+
+    .more-div:hover .more-2 {
+
+        height: 25px;
+    }
+
+    .more-2 {
+
+        height: 24px;
+        color:rgb(53, 53, 53);
+        margin-left: 15px;
+
+        transition: height .35s;
+    }
+
+  
+
+}
