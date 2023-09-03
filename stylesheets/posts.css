@@ -328,7 +328,7 @@
 
         display: flex;
         width: 170px;
-        height: 35px;
+        height: 33px;
         justify-content: center;
         align-items: center;
         border-radius: 8px;
@@ -340,20 +340,33 @@
     ._ab6- {
 
         padding-right: 5px;
+        margin-bottom: -2px;
     }
 
     .float-message-icon-div {
 
         background-color: rgb(0, 149, 246);
+        cursor: pointer;
+    }
 
+    .float-message-icon-div:hover {
+
+        background-color: rgb(0, 133, 222);
     }
 
     .float-following-icon-div {
 
         background-color: rgb(236, 236, 236);
         color: black;
+        cursor: pointer;
 
     }
+
+    .float-following-icon-div:hover {
+
+        background-color: rgb(219, 219, 219);
+    }
+
 
 
 
